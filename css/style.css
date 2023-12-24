@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
     display: flex;
     align-items: center;
@@ -28,6 +32,13 @@
     margin-top: 2px;
     border: 2px solid red;
     border-radius: 50%;
+    /* image-rendering: pixelated; */
+}
+
+.body .name p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .body .facebook-icon {
@@ -39,4 +50,11 @@
 .body .facebook-icon img {
     width: 20px;
     height: 20px;
+}
+
+.body .phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer
 }
